@@ -1,0 +1,101 @@
+:root{
+    --black: #000000;
+    --ivory: #fffff0;
+    --grey: #808080;
+}
+
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header h1 a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.flex-row{
+    display: flex;
+}
+
+header nav{
+    margin: 10px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: var(--black);
+}
+
+header nav ul li a:hover{
+    background: var(--black);
+    color: var(--ivory);
+    border-radius: 20px;
+}
+
+#portfolio-projects{
+    background-color: var(--black);
+    margin: 10px 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    float: left;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#portfolio-projects #project-one img{
+    width: 200px;
+    /*border: 2px solid var(--grey);*/
+    margin: 10px;
+    flex: 1;
+}
+
+#portfolio-projects #project-two img{
+    width: 200px;
+    /*border: 2px solid var(--grey);*/
+    margin: 10px;
+    flex: 2;
+}
+
+#portfolio-projects #project-three img{
+    width: 200px;
+    /*border: 2px solid var(--grey);*/
+    margin: 10px;
+    flex: 3;
+}
+
+#portfolio-projects #project-four img{
+    width: 200px;
+    /*border: 2px solid var(--grey);*/
+    margin: 10px;
+    flex: 4;
+}
+
+
+#portfolio-detail{
+    width: 40%;
+    float: right;
+}
+
+#portfolio-detail #project-details{
+    background-color: var(--black);
+}
