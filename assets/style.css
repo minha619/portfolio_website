@@ -39,7 +39,7 @@ header nav ul{
 header nav ul li a{
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 24px;
     text-decoration: none;
     color: var(--black);
 }
@@ -225,7 +225,7 @@ header nav ul li a:hover{
     margin: 20px;
 }
 
-.contact-form input,
+/*.contact-form input,
 .contact-form textarea{
     border: 1px solid var(--black);
     display: block;
@@ -235,16 +235,59 @@ header nav ul li a:hover{
     border: 10px;
     border-radius: 10px;
     background-color: rgba(255,255,255,0.75);
+}*/
+
+
+@media screen and (max-width: 1024px){
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul{
+        margin-top: 20px;
+        width: 100%;;
+    }
+
+    header nav ul li a{
+        font-size: 24px;
+    }
+
+    header nav ul li a:hover{
+        background: var(--black);
+        color: var(--ivory);
+        border-radius: 20px;
+    }
 }
 
-/*border: 1px solid var(--blue);
-display: block;
-padding: 7px 15px;
-font-size: 16px;
-color: var(--blue);
-width: 100%;
-margin-bottom: 15px;
-margin-top: 5px;
-border: 10px;
-border-radius: 10px;
-background-color: rgba(255,255,255,0.75);*/
+@media screen and (max-width: 375px) {
+    header h1{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    header nav ul li a{
+        font-size: 12px;
+    }
+
+    header nav ul li a:hover{
+        background: var(--black);
+        color: var(--ivory);
+        border-radius: 20px;
+    }
+
+    .contents{
+    font-size:12px;
+    }
+
+    .contents #about-me{
+        font-size: 12px;
+    }
+}
