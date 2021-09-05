@@ -246,7 +246,7 @@ header nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
     width: 30%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -256,7 +256,6 @@ header nav ul li a:hover{
 }
 
 .contents form button{
-    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
