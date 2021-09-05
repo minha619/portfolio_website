@@ -1,7 +1,8 @@
 :root{
     --black: #000000;
     --ivory: #fffff0;
-    --grey: #d3d3d3;
+    --gray: #d3d3d3;
+    --darkgray:#a9a9a9;
 }
 
 
@@ -13,6 +14,9 @@ header{
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
 }
 
 header h1 a{
@@ -57,11 +61,11 @@ header nav ul li a:hover{
 
 .contents #portfolio-projects{
     background-color: var(--black);
-    margin: 10px 10px 10px 20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 100%;
     border-radius: 10px;
     justify-content: center;
 }
@@ -91,11 +95,11 @@ header nav ul li a:hover{
 }
 
 .contents .project-details{
-    width: 60%;
-    background-color: var(--grey);
+    width: 100%;
+    background-color: var(--darkgray);
     border-radius: 10px;
     float:right;
-    margin: 10px 20px 10px 10px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -120,7 +124,7 @@ header nav ul li a:hover{
     width: 100%;
 }
 
-/*.contents .project-details #project-two-detail h2{
+.contents .project-details #project-two-detail h2{
     color: var(--ivory);
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 20px 0 20px;
@@ -138,4 +142,69 @@ header nav ul li a:hover{
 
 .contents .project-details #project-two-detail .project-web-images img{
     width: 100%;
-}*/
+}
+
+.contents .project-details #project-three-detail h2{
+        color: var(--ivory);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px 20px 0 20px;
+        font-size: 16px;
+}
+    
+.contents .project-details #project-three-detail h2 a{
+        text-decoration: none;
+        color: var(--ivory);
+    }
+    
+.contents .project-details #project-three-detail .project-web-images{
+        padding: 20px;
+    }
+    
+.contents .project-details #project-three-detail .project-web-images img{
+        width: 100%;
+}
+
+.contents .project-details #project-four-detail h2{
+    color: var(--ivory);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px 0 20px;
+    font-size: 16px;
+}
+
+.contents .project-details #project-four-detail h2 a{
+    text-decoration: none;
+    color: var(--ivory);
+}
+
+.contents .project-details #project-four-detail .project-web-images{
+    padding: 20px;
+}
+
+.contents .project-details #project-four-detail .project-web-images img{
+    width: 100%;
+}
+
+.contents #about-me{
+    width: 100%;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--gray);
+    border-radius: 10px;
+}
+
+.contents #about-me #profile-left h2{
+    margin: 20px;
+    color: var(--ivory);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contents #about-me #profile-left img{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    border: 2px solid white;
+}
+
